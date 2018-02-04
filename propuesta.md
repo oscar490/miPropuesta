@@ -25,9 +25,10 @@ anotaciones que se encuentren en un tablero digital. También se le dará
 la opotunidad de poder compartir dichas anotaciones con otros usuarios
 que se encuentren registrados en la aplicación, y de poder realizar 
 búsquedas de ellas sobre el tablero correspondiente. También podrán crear,
-borrar o modificar dichos tableros digitales que hayan creado.
+borrar o modificar dichos tableros digitales que hayan creado. Dichas anotaciones
+se encontrarán en tarjetas, que son contenedores de información.
 
-Dichos usuarios también tendrán la opción de compartir sus anotaciones
+Dichos usuarios también tendrán la opción de compartir sus tarjetas
 por redes sociales. Y podrán envíar mensajes privador a otros usuarios,
 escibir comentarios sobres las tarjetas de otros usuarios e indicar 
 si le gustan o no.
@@ -44,10 +45,9 @@ cada vez que el propietario del tablero añada algún elemento nuevo a su tabler
 ## Objetivos generales
 
 * Gestionar la creación, modificación y organización de tableros digitales.
-* Gestionar la creación, modificación y organización de contenedores de anotaciones.
+* Gestionar la creación, modificación y organización de tarjetas.
 * Gestionar el registro, modificación y organización del perfil del usuario.
-* Gestionar la creación, modificación y organización de comentarios en los contenedores de anotaciones.
-* Gestionar la creación, modificación y organización de contenedores de anotaciones.
+* Gestionar la creación, modificación y organización de comentarios en las tarjetas.
 * Gestionar la creación, modificación y organización de tableros marcados como favoritos.
 * Gestionar la creación, modificación y organización de equipos.
 * Gestionar los miembros del equipo.
@@ -56,6 +56,8 @@ cada vez que el propietario del tablero añada algún elemento nuevo a su tabler
 
 # Elemento de innovación
 
-Aspecto, función o tecnología novedosa o innovadora no tratada directamente
-en clase y que será necesario investigar para desarrollar adecuadamente el
-Proyecto.
+* Añadir un mapa con una ubicación especifica desde la API de Google Maps.
+* Funcionalidad de compartir contenido de tarjetas desde la aplicación para móviles
+"Whatsapp".
+* Funcionalidad de adjuntar enlaces de archivos guardados en Dropbox.
+* Autenticación desde una cuenta de Google.
