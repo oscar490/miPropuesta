@@ -516,7 +516,7 @@
 
 | **R58**     | **Gestión de permisos de usuarios.**           |
 | --------------: | :------------------- |
-| **Descripción** | Se tendrá la posibilidad de dar diferentes tipos de permisos a los usuarios añadidos como miembros del tablero. Dichos permisos son para sólo poder ver el contenido del tablero, modificar el contenido del tablero y eliminar el tablero o su contenido.             |
+| **Descripción** | Se tendrá la posibilidad de dar diferentes tipos de permisos a los usuarios añadidos como miembros del tablero. Dichos permisos son para sólo poder ver el contenido del tablero, modificar el contenido del tablero, eliminar el tablero o su contenido y añadir comentario en tarjetas.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -595,6 +595,15 @@
 | **Entrega**     | v3             |
 
 
+| **R67**     | **Añadir comentarios en tarjetas**           |
+| --------------: | :------------------- |
+| **Descripción** | En el contenido de cada tarjeta se podrá añadir comentarios por los usuarios miembros del tablero.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
 
 ## Cuadro resumen
 
@@ -666,3 +675,4 @@
 | (**R64**) Enviar mensajes privados | Importante | Funcional | Media | v3 |
 | (**R65**) Mostrar mensajes privados | Importante | Funcional | Media | v3 |
 | (**R66**) Borrar mensajes privados recibidos | Importante | Funcional | Media | v3 |
+| (**R67**) Añadir comentarios en tarjetas | Importante | Funcional | Media | v3 |
