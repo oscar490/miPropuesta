@@ -12,7 +12,7 @@
 
 | **R02**     | **Configuración de correo.**           |
 | --------------: | :------------------- |
-| **Descripción** | Cuando el usuario haya completado  el formulario de registro, sin errore, se le enviará un correo electrónico a su cuenta de correo, si no se confirma, no pordrá iniciar sesión.             |
+| **Descripción** | Cuando el usuario haya completado  el formulario de registro, sin errores, se le enviará un correo electrónico a su cuenta de correo, si no se confirma, no pordrá iniciar sesión.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -120,7 +120,7 @@
 
 | **R14**     | **Mostrar tableros.**           |
 | --------------: | :------------------- |
-| **Descripción** | Se mostrarán los tableros creados tanto en el contenido de un equipo, como en la página principal. En la página principal se mostrará los dichos tableros junto con sus equipo al que pertenecen.             |
+| **Descripción** | Se mostrarán los tableros creados tanto en el contenido de un equipo, como en la página principal. En la página principal se mostrará dichos tableros junto con sus equipo al que pertenecen.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -129,7 +129,7 @@
 
 | **R15**     | **Añadir equipos.**           |
 | --------------: | :------------------- |
-| **Descripción** | Por medio de un formulario, los usuario autenticados podrán crear los distintos equipos para poder guardar en su contenido los diferentes tableros que creen. Se deberá indicar su nombre,  y opcionalmente, una breve descrioción. Se comprobará que no exista otro equipo ya creado con el mismo nombre, en caso afirmativo, se le notificará con un mensaje. Al crearlo, nos redireccionará a su contenido.             |
+| **Descripción** | Por medio de un formulario, los usuario autenticados podrán crear los distintos equipos para poder guardar en su contenido los diferentes tableros que creen. Se deberá indicar su nombre,  y opcionalmente, una breve descripción. Se comprobará que no exista otro equipo ya creado con el mismo nombre, en caso afirmativo, se le notificará con un mensaje. Al crearlo, nos redireccionará a su contenido.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -246,7 +246,7 @@
 
 | **R28**     | **Añadir miembros a un tablero.**           |
 | --------------: | :------------------- |
-| **Descripción** | En en contenido del tablero, habrá una sección que, por medio de un formulario, se buscará a otro usuario, que esté registrado en la aplicación. Se deberá indicar el nombre de usuario o su dirección de correo electrónico, el mismo que uso para registrarse. Una vez buscado, se añadirá dicho usuario al tablero, de manera que podrá śolo ver su contenido.             |
+| **Descripción** | En el contenido del tablero, habrá una sección que, por medio de un formulario, se buscará a otro usuario, que esté registrado en la aplicación. Se deberá indicar el nombre de usuario o su dirección de correo electrónico, el mismo que uso para registrarse. Una vez buscado, se añadirá dicho usuario al tablero, de manera que podrá śolo ver su contenido y añadir comentarios en las tarjetas.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -271,7 +271,25 @@
 | **Entrega**     | v2             |
 
 
-| **R31**     | **Mostrar tableros favoritos**           |
+| **R31**     | **Añadir tablero como favorito.**           |
+| --------------: | :------------------- |
+| **Descripción** | Se dará la posibilidad de añadir un tablero como tableros favoritos. Se refiere a los que más se accedan y se marcan como favoritos. Se podrá desde el contenido del tablero.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R32**     | **Quitar tablero como favorito**           |
+| --------------: | :------------------- |
+| **Descripción** | Mediante una selección, se podrá desactivar un tablero como favorito, de manera que no aparecerá como tablero favorito.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R33**     | **Mostrar tableros favoritos**           |
 | --------------: | :------------------- |
 | **Descripción** | Se podrá indicar un tablero como favorito, de manera que desde la página principal, a la hora de mostrar todos los tableros creados, se mostrarán los tableros marcados como favoritos, al comienzo de la página.             |
 | **Prioridad**   | Importante           |
@@ -280,7 +298,7 @@
 | **Entrega**     | v2             |
 
 
-| **R32**     | **Enviar tablero a otro equipo**           |
+| **R34**     | **Enviar tablero a otro equipo**           |
 | --------------: | :------------------- |
 | **Descripción** | Se tendrá la disponibilidad de poder enviar tableros a otros equipos y dejando de existir en el equipo actual, por medio de un formulario, indicando al equipo donde se quiere enviar dicho tablero.             |
 | **Prioridad**   | Importante           |
@@ -289,7 +307,7 @@
 | **Entrega**     | v2             |
 
 
-| **R33**     | **Gestión de ventanas.**           |
+| **R35**     | **Gestión de ventanas.**           |
 | --------------: | :------------------- |
 | **Descripción** | Gestión de la apariencia de las ventanas, creación de nuevas ventanas y comunicación entre ventanas.             |
 | **Prioridad**   | Mínimo           |
@@ -298,7 +316,7 @@
 | **Entrega**     |              |
 
 
-| **R34**     | **Gestión de Eventos.**           |
+| **R36**     | **Gestión de Eventos.**           |
 | --------------: | :------------------- |
 | **Descripción** | Interactividad a través de mecanismos de manejo de eventos intuitivos y eficaces.             |
 | **Prioridad**   | Mínimo           |
@@ -307,7 +325,7 @@
 | **Entrega**     |              |
 
 
-| **R35**     | **Uso y manipulación  del DOM.**           |
+| **R37**     | **Uso y manipulación  del DOM.**           |
 | --------------: | :------------------- |
 | **Descripción** | Uso y manipulación de las características del modelo de objetos del documento.             |
 | **Prioridad**   | Mínimo           |
@@ -316,7 +334,7 @@
 | **Entrega**     |              |
 
 
-| **R36**     | **Almacenamiento en el lado del cliente.**           |
+| **R38**     | **Almacenamiento en el lado del cliente.**           |
 | --------------: | :------------------- |
 | **Descripción** | Uso de mecanismos de almacenamiento en el lado del cliente.             |
 | **Prioridad**   | Mínimo           |
@@ -325,7 +343,7 @@
 | **Entrega**     |              |
 
 
-| **R37**     | **JQUERY**           |
+| **R39**     | **JQUERY**           |
 | --------------: | :------------------- |
 | **Descripción** | Uso de la librería de JQUERY.             |
 | **Prioridad**   | Mínimo           |
@@ -334,7 +352,7 @@
 | **Entrega**     |              |
 
 
-| **R38**     | **Plugin de JQUERY**           |
+| **R40**     | **Plugin de JQUERY**           |
 | --------------: | :------------------- |
 | **Descripción** | Incluir al menos un plugin no trabajado en clase.             |
 | **Prioridad**   | Mínimo           |
@@ -343,7 +361,7 @@
 | **Entrega**     |              |
 
 
-| **R39**     | **AJAX**           |
+| **R41**     | **AJAX**           |
 | --------------: | :------------------- |
 | **Descripción** | Uso de mecanismos de comunicación asíncrona.             |
 | **Prioridad**   | Mínimo           |
@@ -352,7 +370,7 @@
 | **Entrega**     |              |
 
 
-| **R40**     | **PHP 7.1**           |
+| **R42**     | **PHP 7.1**           |
 | --------------: | :------------------- |
 | **Descripción** | Uso del lenguaje de programación PHP 7.1.             |
 | **Prioridad**   | Mínimo           |
@@ -361,7 +379,7 @@
 | **Entrega**     |              |
 
 
-| **R41**     | **Framework**           |
+| **R43**     | **Framework**           |
 | --------------: | :------------------- |
 | **Descripción** | Uso del Framework Yii2 versión 2.0.1.0 ó superior.             |
 | **Prioridad**   | Mínimo           |
@@ -370,7 +388,7 @@
 | **Entrega**     |              |
 
 
-| **R42**     | **Sistema de Gestión de Bases de datos.**           |
+| **R44**     | **Sistema de Gestión de Bases de datos.**           |
 | --------------: | :------------------- |
 | **Descripción** | PostgresSQL versión 9.6 o superior.             |
 | **Prioridad**   | Mínimo           |
@@ -379,7 +397,7 @@
 | **Entrega**     |              |
 
 
-| **R43**     | **Despliegue**           |
+| **R45**     | **Despliegue**           |
 | --------------: | :------------------- |
 | **Descripción** | Despliegue en la plataforma Heroku.             |
 | **Prioridad**   | Mínimo           |
@@ -388,7 +406,7 @@
 | **Entrega**     |              |
 
 
-| **R44**     | **Pruebas**           |
+| **R46**     | **Pruebas**           |
 | --------------: | :------------------- |
 | **Descripción** | Pruebas funcionales con Codeception             |
 | **Prioridad**   | Mínimo           |
@@ -397,7 +415,7 @@
 | **Entrega**     |              |
 
 
-| **R45**     | **Estilo y mantenimiento**           |
+| **R47**     | **Estilo y mantenimiento**           |
 | --------------: | :------------------- |
 | **Descripción** | Estilo y mantenibilidad del código fuente con CodeClimate.             |
 | **Prioridad**   | Mínimo           |
@@ -406,7 +424,7 @@
 | **Entrega**     |              |
 
 
-| **R46**     | **Aplicación.**           |
+| **R48**     | **Aplicación.**           |
 | --------------: | :------------------- |
 | **Descripción** | La aplicación debe ser escalable.             |
 | **Prioridad**   | Mínimo           |
@@ -415,7 +433,7 @@
 | **Entrega**     |              |
 
 
-| **R47**     | **La aplicación debe hacer uso de la tecnología AJAX en algún momento.**           |
+| **R49**     | **La aplicación debe hacer uso de la tecnología AJAX en algún momento.**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -424,7 +442,7 @@
 | **Entrega**     |              |
 
 
-| **R48**     | **Contenido.**           |
+| **R50**     | **Contenido.**           |
 | --------------: | :------------------- |
 | **Descripción** | Uso de etiquetas semánticas de HTML 5.             |
 | **Prioridad**   | Mínimo           |
@@ -433,7 +451,7 @@
 | **Entrega**     |              |
 
 
-| **R49**     | **Diseño.**           |
+| **R51**     | **Diseño.**           |
 | --------------: | :------------------- |
 | **Descripción** | Todo lo relacionado con la presentación, se trabajará mediante CSS.             |
 | **Prioridad**   | Mínimo           |
@@ -442,7 +460,7 @@
 | **Entrega**     |              |
 
 
-| **R50**     | **El diseño será flexible.**           |
+| **R52**     | **El diseño será flexible.**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -451,7 +469,7 @@
 | **Entrega**     |              |
 
 
-| **R51**     | **Existirán transacciones, transformaciones, animaciones y contenido multimedia.**           |
+| **R53**     | **Existirán transacciones, transformaciones, animaciones y contenido multimedia.**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -460,7 +478,7 @@
 | **Entrega**     |              |
 
 
-| **R52**     | **Uso de microdatos.**           |
+| **R54**     | **Uso de microdatos.**           |
 | --------------: | :------------------- |
 | **Descripción** |              |
 | **Prioridad**   | Mínimo           |
@@ -469,7 +487,7 @@
 | **Entrega**     |              |
 
 
-| **R53**     | **Código**           |
+| **R55**     | **Código**           |
 | --------------: | :------------------- |
 | **Descripción** | Se deberá comprobar que el código supera el validador para HTML 5, CSS 3, Nivel de accesibilidad AA y prueba del seis.             |
 | **Prioridad**   | Mínimo           |
@@ -478,7 +496,7 @@
 | **Entrega**     |              |
 
 
-| **R54**     | **Resolución.**           |
+| **R56**     | **Resolución.**           |
 | --------------: | :------------------- |
 | **Descripción** | Implementar el diseño para resoluciones grandes y pequeñas.             |
 | **Prioridad**   | Mínimo           |
@@ -487,7 +505,7 @@
 | **Entrega**     |              |
 
 
-| **R55**     | **Navegadores.**           |
+| **R57**     | **Navegadores.**           |
 | --------------: | :------------------- |
 | **Descripción** | El diseño debe ser correcto en los navegadores Internet Explorer, Chrome, Mozilla Firefox y Opera.             |
 | **Prioridad**   | Mínimo           |
@@ -496,7 +514,7 @@
 | **Entrega**     |              |
 
 
-| **R56**     | **Realizar el despligue en un host**           |
+| **R58**     | **Realizar el despligue en un host**           |
 | --------------: | :------------------- |
 | **Descripción** | Usando un servicio gratuito de hosting e instalar y configurar el software necesario para desplegar el proyecto.             |
 | **Prioridad**   | Mínimo           |
@@ -505,7 +523,7 @@
 | **Entrega**     |              |
 
 
-| **R57**     | **Realizar el despliegue en un servidor local.**           |
+| **R59**     | **Realizar el despliegue en un servidor local.**           |
 | --------------: | :------------------- |
 | **Descripción** | Se usarán tres máquinas virtuales.             |
 | **Prioridad**   | Mínimo           |
@@ -514,7 +532,7 @@
 | **Entrega**     |              |
 
 
-| **R58**     | **Gestión de permisos de usuarios.**           |
+| **R60**     | **Gestión de permisos de usuarios **           |
 | --------------: | :------------------- |
 | **Descripción** | Se tendrá la posibilidad de dar diferentes tipos de permisos a los usuarios añadidos como miembros del tablero. Dichos permisos son para sólo poder ver el contenido del tablero, modificar el contenido del tablero, eliminar el tablero o su contenido y añadir comentario en tarjetas.             |
 | **Prioridad**   | Importante           |
@@ -523,7 +541,7 @@
 | **Entrega**     | v2             |
 
 
-| **R59**     | **Búsqueda de usuarios.**           |
+| **R61**     | **Búsqueda de usuarios.**           |
 | --------------: | :------------------- |
 | **Descripción** | Desde la página principal, habrá una sección donde permita, mediante un formulario, buscar un usuario a partir de su nombre o correo electrónico, el mismo que se uso para registrarse. Una ve encontrado, podremos acceder a su perfil y ver sus tableros y sus contenido. En caso de no existir el usuario, se le notificará con un mensaje.             |
 | **Prioridad**   | Importante           |
@@ -532,7 +550,7 @@
 | **Entrega**     | v2             |
 
 
-| **R60**     | **Gestión de permisos de tableros.**           |
+| **R62**     | **Gestión de permisos de tableros.**           |
 | --------------: | :------------------- |
 | **Descripción** | Desde el contenido del tablero, habrá una sección en la cual se podrá añadir una serie de permisos sobre los tableros. Pivado, sólo visible por los miembros y propietario del tablero y  Público, visible por cualquier usuario              |
 | **Prioridad**   | Importante           |
@@ -541,7 +559,7 @@
 | **Entrega**     | v2             |
 
 
-| **R61**     | **Mostrar u ocultar tarjetas.**           |
+| **R63**     | **Mostrar u ocultar tarjetas.**           |
 | --------------: | :------------------- |
 | **Descripción** | Desde el contenido de las tarjetas de los tableros, se podrá configurar para que esa tarjeta pueda estar oculta y sólo visible por el propietario del tablero. Los miembros del tablero no podrán verla.             |
 | **Prioridad**   | Opcional           |
@@ -550,7 +568,7 @@
 | **Entrega**     | v2             |
 
 
-| **R62**     | **Personalizar tableros.**           |
+| **R64**     | **Personalizar tableros.**           |
 | --------------: | :------------------- |
 | **Descripción** | Se tendrá la oportunidad de añadir imágen de fondo del tablero, esta imágen se subirá a la aplicación.             |
 | **Prioridad**   | Opcional           |
@@ -559,7 +577,7 @@
 | **Entrega**     | v2             |
 
 
-| **R63**     | **Añadir notificaciones**           |
+| **R65**     | **Añadir notificaciones**           |
 | --------------: | :------------------- |
 | **Descripción** | En el contenido del tablero se mostrará notificaciones sobre acciones que se han realizado en el tablero como añadir una tarjeta, modificar una tarjeta, o eliminar tarjeta. Se mostrará el usuario miembro que ha realizado la acción.             |
 | **Prioridad**   | Importante           |
@@ -568,7 +586,7 @@
 | **Entrega**     | v2             |
 
 
-| **R64**     | **Enviar mensajes privados**           |
+| **R66**     | **Enviar mensajes privados**           |
 | --------------: | :------------------- |
 | **Descripción** | Cada usuario podrá enviar mensajes privados a otros usuarios, indicando el contenido y el nombre o correo electrónico del usuario al que se mandará el mensaje, por medio de un formulario.             |
 | **Prioridad**   | Importante           |
@@ -577,7 +595,7 @@
 | **Entrega**     | v3             |
 
 
-| **R65**     | **Mostrar mensajes privados**           |
+| **R67**     | **Mostrar mensajes privados**           |
 | --------------: | :------------------- |
 | **Descripción** | Habrá una sección donde se muestren los mensajes privados recibidos de otros usuarios registrados en la aplicación.             |
 | **Prioridad**   | Importante           |
@@ -586,7 +604,7 @@
 | **Entrega**     | v3             |
 
 
-| **R66**     | **Borrar mensajes privados recibidos**           |
+| **R68**     | **Borrar mensajes privados recibidos**           |
 | --------------: | :------------------- |
 | **Descripción** | Se podrá borrar los mensajes privados recibidos de otros usuarios.             |
 | **Prioridad**   | Importante           |
@@ -595,10 +613,100 @@
 | **Entrega**     | v3             |
 
 
-| **R67**     | **Añadir comentarios en tarjetas**           |
+| **R69**     | **Añadir comentarios en tarjetas**           |
 | --------------: | :------------------- |
 | **Descripción** | En el contenido de cada tarjeta se podrá añadir comentarios por los usuarios miembros del tablero.             |
 | **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R70**     | **Eliminar comentarios en tarjeta**           |
+| --------------: | :------------------- |
+| **Descripción** | Se dará la posibilidad de porder eliminar comentarios, añadidos anteriormente, en las tarjetas. Sólo tendrán permiso de eliminarlo el propietario del tablero o el propietario del comentario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R71**     | **Modificar comentarios en tarjeta.**           |
+| --------------: | :------------------- |
+| **Descripción** | El usuario miembro podrá modificar un comentario que haya sido añadido a una tarjeta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R72**     | **Mostrar comentarios en tarjeta.**           |
+| --------------: | :------------------- |
+| **Descripción** | En el contenido de la tarjeta, se mostrarán los comentarios añadidos, junto con información del usuario miembro que ha añadido el comentario. También se mostrará en que instante de fecha y hora se añadió el comentario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R73**     | **Añadir en tarjeta un mapa de una ubicación de algún lugar.**           |
+| --------------: | :------------------- |
+| **Descripción** | Se dará la posibilidad de añadir, como contenido de una tarjeta, un mapa con una ubicación establecida desde la API de Google Maps.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R74**     | **Compartir tarjetas desde Whatsapp.**           |
+| --------------: | :------------------- |
+| **Descripción** | Se permitirá poder compartir el contenido de una tarjetas, desde dispositivos que tengan instalado la aplicación de Whatsapp. Como móviles, tablets, etc.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R75**     | **Adjuntar enlaces de archivos guardados en Dropbox.**           |
+| --------------: | :------------------- |
+| **Descripción** | Se permitira la posibilidad de poder adjuntar, en el contenido de la tarjeta, enlaces que referenciarán a archivos guardados en Dropbox.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R76**     | **Autenticación desde una cuenta de Google.**           |
+| --------------: | :------------------- |
+| **Descripción** | Se permitirá acceder a nuestra cuenta de usuario con una cuenta de google.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R77**     | **Compartir contenidos de tarjetas por redes sociales.**           |
+| --------------: | :------------------- |
+| **Descripción** | Se permitirá poder compartir contenidos de tarjetas por redes sociales como Facebook, Twitter, etc.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R78**     | **Añadir “Me gusta”.**           |
+| --------------: | :------------------- |
+| **Descripción** | Se permitirá a los usuarios miembros del tablero, porder indicar si les gusta o no el contenido de una tarjeta.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R79**     | **Añadir cita.**           |
+| --------------: | :------------------- |
+| **Descripción** | Se dará la posibilidad de poder añadir un instante de tiempo en una tarjeta, de manera que cuando llegue ese instante de tiempo, se le avise al usuario con un mensaje de recordatorio. Por ejemplo, avisarte que en pocos días tienes una cita con el médico.             |
+| **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v3             |
@@ -639,40 +747,52 @@
 | (**R28**) Añadir miembros a un tablero. | Importante | Funcional | Media | v2 |
 | (**R29**) Ver tableros de otros usuarios. | Importante | Funcional | Media | v2 |
 | (**R30**) Búsqueda de tableros. | Importante | Funcional | Media | v2 |
-| (**R31**) Mostrar tableros favoritos | Importante | Funcional | Media | v2 |
-| (**R32**) Enviar tablero a otro equipo | Importante | Funcional | Media | v2 |
-| (**R33**) Gestión de ventanas. | Mínimo | Técnico |  |  |
-| (**R34**) Gestión de Eventos. | Mínimo | Técnico |  |  |
-| (**R35**) Uso y manipulación  del DOM. | Mínimo | Técnico |  |  |
-| (**R36**) Almacenamiento en el lado del cliente. | Mínimo | Técnico |  |  |
-| (**R37**) JQUERY | Mínimo | Técnico |  |  |
-| (**R38**) Plugin de JQUERY | Mínimo | Técnico |  |  |
-| (**R39**) AJAX | Mínimo | Técnico |  |  |
-| (**R40**) PHP 7.1 | Mínimo | Técnico |  |  |
-| (**R41**) Framework | Mínimo | Técnico |  |  |
-| (**R42**) Sistema de Gestión de Bases de datos. | Mínimo | Técnico |  |  |
-| (**R43**) Despliegue | Mínimo | Técnico |  |  |
-| (**R44**) Pruebas | Mínimo | Técnico |  |  |
-| (**R45**) Estilo y mantenimiento | Mínimo | Técnico |  |  |
-| (**R46**) Aplicación. | Mínimo | Técnico |  |  |
-| (**R47**) La aplicación debe hacer uso de la tecnología AJAX en algún momento. | Mínimo | Técnico |  |  |
-| (**R48**) Contenido. | Mínimo | Técnico |  |  |
-| (**R49**) Diseño. | Mínimo | Técnico |  |  |
-| (**R50**) El diseño será flexible. | Mínimo | Técnico |  |  |
-| (**R51**) Existirán transacciones, transformaciones, animaciones y contenido multimedia. | Mínimo | Técnico |  |  |
-| (**R52**) Uso de microdatos. | Mínimo | Técnico |  |  |
-| (**R53**) Código | Mínimo | Técnico |  |  |
-| (**R54**) Resolución. | Mínimo | Técnico |  |  |
-| (**R55**) Navegadores. | Mínimo | Técnico |  |  |
-| (**R56**) Realizar el despligue en un host | Mínimo | Técnico |  |  |
-| (**R57**) Realizar el despliegue en un servidor local. | Mínimo | Técnico |  |  |
-| (**R58**) Gestión de permisos de usuarios. | Importante | Funcional | Media | v2 |
-| (**R59**) Búsqueda de usuarios. | Importante | Funcional | Media | v2 |
-| (**R60**) Gestión de permisos de tableros. | Importante | Funcional | Media | v2 |
-| (**R61**) Mostrar u ocultar tarjetas. | Opcional | Funcional | Difícil | v2 |
-| (**R62**) Personalizar tableros. | Opcional | Funcional | Media | v2 |
-| (**R63**) Añadir notificaciones | Importante | Funcional | Media | v2 |
-| (**R64**) Enviar mensajes privados | Importante | Funcional | Media | v3 |
-| (**R65**) Mostrar mensajes privados | Importante | Funcional | Media | v3 |
-| (**R66**) Borrar mensajes privados recibidos | Importante | Funcional | Media | v3 |
-| (**R67**) Añadir comentarios en tarjetas | Importante | Funcional | Media | v3 |
+| (**R31**) Añadir tablero como favorito. | Importante | Funcional | Media | v2 |
+| (**R32**) Quitar tablero como favorito | Importante | Funcional | Media | v2 |
+| (**R33**) Mostrar tableros favoritos | Importante | Funcional | Media | v2 |
+| (**R34**) Enviar tablero a otro equipo | Importante | Funcional | Media | v2 |
+| (**R35**) Gestión de ventanas. | Mínimo | Técnico |  |  |
+| (**R36**) Gestión de Eventos. | Mínimo | Técnico |  |  |
+| (**R37**) Uso y manipulación  del DOM. | Mínimo | Técnico |  |  |
+| (**R38**) Almacenamiento en el lado del cliente. | Mínimo | Técnico |  |  |
+| (**R39**) JQUERY | Mínimo | Técnico |  |  |
+| (**R40**) Plugin de JQUERY | Mínimo | Técnico |  |  |
+| (**R41**) AJAX | Mínimo | Técnico |  |  |
+| (**R42**) PHP 7.1 | Mínimo | Técnico |  |  |
+| (**R43**) Framework | Mínimo | Técnico |  |  |
+| (**R44**) Sistema de Gestión de Bases de datos. | Mínimo | Técnico |  |  |
+| (**R45**) Despliegue | Mínimo | Técnico |  |  |
+| (**R46**) Pruebas | Mínimo | Técnico |  |  |
+| (**R47**) Estilo y mantenimiento | Mínimo | Técnico |  |  |
+| (**R48**) Aplicación. | Mínimo | Técnico |  |  |
+| (**R49**) La aplicación debe hacer uso de la tecnología AJAX en algún momento. | Mínimo | Técnico |  |  |
+| (**R50**) Contenido. | Mínimo | Técnico |  |  |
+| (**R51**) Diseño. | Mínimo | Técnico |  |  |
+| (**R52**) El diseño será flexible. | Mínimo | Técnico |  |  |
+| (**R53**) Existirán transacciones, transformaciones, animaciones y contenido multimedia. | Mínimo | Técnico |  |  |
+| (**R54**) Uso de microdatos. | Mínimo | Técnico |  |  |
+| (**R55**) Código | Mínimo | Técnico |  |  |
+| (**R56**) Resolución. | Mínimo | Técnico |  |  |
+| (**R57**) Navegadores. | Mínimo | Técnico |  |  |
+| (**R58**) Realizar el despligue en un host | Mínimo | Técnico |  |  |
+| (**R59**) Realizar el despliegue en un servidor local. | Mínimo | Técnico |  |  |
+| (**R60**) Gestión de permisos de usuarios  | Importante | Funcional | Media | v2 |
+| (**R61**) Búsqueda de usuarios. | Importante | Funcional | Media | v2 |
+| (**R62**) Gestión de permisos de tableros. | Importante | Funcional | Media | v2 |
+| (**R63**) Mostrar u ocultar tarjetas. | Opcional | Funcional | Difícil | v2 |
+| (**R64**) Personalizar tableros. | Opcional | Funcional | Media | v2 |
+| (**R65**) Añadir notificaciones | Importante | Funcional | Media | v2 |
+| (**R66**) Enviar mensajes privados | Importante | Funcional | Media | v3 |
+| (**R67**) Mostrar mensajes privados | Importante | Funcional | Media | v3 |
+| (**R68**) Borrar mensajes privados recibidos | Importante | Funcional | Media | v3 |
+| (**R69**) Añadir comentarios en tarjetas | Importante | Funcional | Fácil | v3 |
+| (**R70**) Eliminar comentarios en tarjeta | Importante | Funcional | Fácil | v3 |
+| (**R71**) Modificar comentarios en tarjeta. | Importante | Funcional | Fácil | v3 |
+| (**R72**) Mostrar comentarios en tarjeta. | Importante | Funcional | Fácil | v3 |
+| (**R73**) Añadir en tarjeta un mapa de una ubicación de algún lugar. | Importante | Funcional | Difícil | v3 |
+| (**R74**) Compartir tarjetas desde Whatsapp. | Importante | Funcional | Media | v3 |
+| (**R75**) Adjuntar enlaces de archivos guardados en Dropbox. | Opcional | Funcional | Difícil | v3 |
+| (**R76**) Autenticación desde una cuenta de Google. | Opcional | Funcional | Media | v3 |
+| (**R77**) Compartir contenidos de tarjetas por redes sociales. | Opcional | Funcional | Media | v3 |
+| (**R78**) Añadir “Me gusta”. | Opcional | Funcional | Media | v3 |
+| (**R79**) Añadir cita. | Opcional | Funcional | Media | v3 |

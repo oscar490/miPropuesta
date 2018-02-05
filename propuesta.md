@@ -1,4 +1,4 @@
-% Videoclub "Los Pajaritos"
+% mySpace
 % Óscar Vega
 % Curso 2017/18
 
@@ -18,15 +18,16 @@ organizar las tareas si están completas o incompletas, destinado a un
 estudiante, o la publicación de tareas a realizar, añadidas por un profesor
 y sus alumnos tienen permiso para observarlas.
 
+De esta manera, conseguimos que el usuario tenga una planificación de las tareas
+que debe realizar, de manera fácil y cómoda.
+
 ## Funcionalidad principal de la aplicación
 
 Se permitirá a los usuarios poder crear, borrar o modificar dichas
 anotaciones que se encuentren en un tablero digital. También se le dará
-la opotunidad de poder compartir dichas anotaciones con otros usuarios
-que se encuentren registrados en la aplicación, y de poder realizar 
-búsquedas de ellas sobre el tablero correspondiente. También podrán crear,
-borrar o modificar dichos tableros digitales que hayan creado. Dichas anotaciones
-se encontrarán en tarjetas, que son contenedores de información.
+la opotunidad de poder realizar búsquedas de sus tableros creados.
+También podrán crear, borrar o modificar dichos tableros digitales que hayan creado. 
+Dichas anotaciones se encontrarán en tarjetas, que son contenedores de información.
 
 Dichos usuarios también tendrán la opción de compartir sus tarjetas
 por redes sociales. Y podrán envíar mensajes privador a otros usuarios,
@@ -39,19 +40,23 @@ que sólo las pueda ver él, o un usuario específico, o verlas cualquier
 usuario. Serán permisos de lectura, modificación o borrado.
 
 Cada usuario cuenta también con la posibilidad de poder agregar a otros usuarios a sus
-tableros, de manera que, por consentimiento del propietario del tablero, se le notificará
-cada vez que el propietario del tablero añada algún elemento nuevo a su tablero.
+tableros. También se notificará sobre acciones que haya realizado el propietario del tablero 
+sobre él, como añadir anotaciones, eliminarlas, etc.
 
 ## Objetivos generales
 
 * Gestionar la creación, modificación y organización de tableros digitales.
 * Gestionar la creación, modificación y organización de tarjetas.
+* Gestionar la creación, modificación y organización de contenido de las tarjetas.
 * Gestionar el registro, modificación y organización del perfil del usuario.
 * Gestionar la creación, modificación y organización de comentarios en las tarjetas.
 * Gestionar la creación, modificación y organización de tableros marcados como favoritos.
 * Gestionar la creación, modificación y organización de equipos.
 * Gestionar los miembros del equipo.
-* Gestionar la creación, modificación y organización de notificaciones.
+* Gestionar la búsqueda de otros usuarios de la aplicación.
+* Gestionar los permisos de los usuarios sobre los tableros.
+* Gestionar las notificaciones.
+* Gestionar la creación, modificación y organización de mensajes privados.
 
 
 # Elemento de innovación
